@@ -52,11 +52,6 @@ public class Car {
     }
 
 
-    @Override
-    public String toString() {
-        return "Car [company=" + company + ", date_of_create=" + date_of_create + ", id=" + id + ", name=" + name
-                + ", type=" + type + ", year=" + year + "]";
-    }
 
     public Engin getEngin() {
         return engin;
